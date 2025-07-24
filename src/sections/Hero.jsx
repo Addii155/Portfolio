@@ -54,10 +54,6 @@ const Hero = () => {
               Hi, I’m Aditya, a developer based in India with a passion for
               code.
             </p>
-               <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I'm Aditya, a developer based in India with a passion for
-              code.
-            </p>
 
             {/* Social Links */}
             <div className="flex items-center gap-4 relative z-10">
