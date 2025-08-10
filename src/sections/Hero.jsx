@@ -21,7 +21,7 @@ const Hero = () => {
         <img src="/images/bg.png" alt="" />
       </div>
 
-      <div className="hero-layout">
+      <div className="hero-layout md:gap-10 gap-0">
         {/* LEFT: Hero Content */}
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
@@ -110,10 +110,10 @@ const Hero = () => {
           </div>
         </header>
 
-        {/* RIGHT: 3D Model or Visual */}
+        {/* RIGHT: Hero GIF Visual */}
         <figure>
-          <div className="hero-3d-layout">
-            <HeroExperience />
+          <div className="hero-3d-layout flex items-center justify-center">
+            <img src="/herosection.gif" alt="Hero section" className="w-50% h-50% object-contain rounded-xl" />
           </div>
         </figure>
       </div>
